@@ -1,6 +1,10 @@
 <p align="center">
-  <img src="./terminal.svg" alt="Terminal interactivo de Pablo Gutiérrez" width="760"/>
+  <a href="https://wiki.pablogg.dev" title="Abrir el terminal interactivo de verdad">
+    <img src="./terminal.svg" alt="Terminal interactivo de Pablo Gutiérrez — haz clic para probarlo en vivo" width="760"/>
+  </a>
 </p>
+
+<p align="center"><sub>👆 Haz clic en el terminal para usarlo de verdad en <a href="https://wiki.pablogg.dev">wiki.pablogg.dev</a></sub></p>
 
 <h1 align="center">Hola, soy Pablo 👋</h1>
 
