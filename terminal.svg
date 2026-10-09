@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" role="img" aria-label="Terminal animado de Pablo Gutierrez">
+  <defs>
+    <clipPath id="l1"><rect x="0" y="0" height="330" width="0"><animate attributeName="width" values="0;0;720;720" keyTimes="0;0.04;0.13;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="l2"><rect x="0" y="0" height="330" width="0"><animate attributeName="width" values="0;0;720;720" keyTimes="0;0.20;0.27;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="l3"><rect x="0" y="0" height="330" width="0"><animate attributeName="width" values="0;0;720;720" keyTimes="0;0.36;0.48;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <!-- ventana -->
+  <rect x="8" y="8" width="744" height="314" rx="14" fill="#1e1e1e" stroke="#4f8ef7" stroke-opacity="0.35" stroke-width="1.5"/>
+  <!-- barra de titulo -->
+  <rect x="8" y="8" width="744" height="40" rx="14" fill="#1a1a1a"/>
+  <rect x="8" y="34" width="744" height="14" fill="#1a1a1a"/>
+  <circle cx="34" cy="28" r="7" fill="#ff5f57"/>
+  <circle cx="58" cy="28" r="7" fill="#febc2e"/>
+  <circle cx="82" cy="28" r="7" fill="#28c840"/>
+  <text x="380" y="33" text-anchor="middle" fill="#888" font-size="14">pgg@wiki: ~</text>
+
+  <!-- cuerpo -->
+  <g font-size="16">
+    <!-- linea 1 -->
+    <g clip-path="url(#l1)">
+      <text x="28" y="92"><tspan fill="#28c840">pgg@wiki</tspan><tspan fill="#666">:</tspan><tspan fill="#4f8ef7">~</tspan><tspan fill="#666">$</tspan><tspan fill="#d4d4d4"> whoami</tspan></text>
+    </g>
+    <text x="28" y="120" fill="#28c840" opacity="0">Pablo Gutiérrez Gracia · Administrador de Sistemas
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.15;0.18;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- linea 2 -->
+    <g clip-path="url(#l2)">
+      <text x="28" y="162"><tspan fill="#28c840">pgg@wiki</tspan><tspan fill="#666">:</tspan><tspan fill="#4f8ef7">~</tspan><tspan fill="#666">$</tspan><tspan fill="#d4d4d4"> stack</tspan></text>
+    </g>
+    <text x="28" y="190" fill="#febc2e" opacity="0">Proxmox · Django · PostgreSQL · Zabbix · Docker · Cloudflare
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.29;0.32;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- linea 3 -->
+    <g clip-path="url(#l3)">
+      <text x="28" y="232"><tspan fill="#28c840">pgg@wiki</tspan><tspan fill="#666">:</tspan><tspan fill="#4f8ef7">~</tspan><tspan fill="#666">$</tspan><tspan fill="#d4d4d4"> ask ¿dónde pruebo el terminal de verdad?</tspan></text>
+    </g>
+    <text x="28" y="260" opacity="0"><tspan fill="#888">→ </tspan><tspan fill="#4f8ef7">https://wiki.pablogg.dev</tspan>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.50;0.54;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- cursor parpadeante -->
+    <rect x="28" y="278" width="10" height="18" fill="#28c840">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
